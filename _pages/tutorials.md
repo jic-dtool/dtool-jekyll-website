@@ -11,7 +11,7 @@ This page lists didactic material available for components of the _dtool_ ecosys
 
 ## command line client
 
-The [dtool-demo](https://github.com/livMatS/dtool-demo) repository contains several sample terminal sessions that
+The [dtool-demo](https://github.com/jic-dtool/dtool-demo) repository contains several sample terminal sessions that
 demonstrate working with the dtool CLI. The following videos have been generated from these terminal sessions. For
 thorough documentation, refer to [dtool.readthedocs.io](https://dtool.readthedocs.io).
 
@@ -52,7 +52,7 @@ thorough documentation, refer to [dtool.readthedocs.io](https://dtool.readthedoc
 
 ## graphical user interface
 
-Following videos show how to work with the [dtool-lookup-gui](https://github.com/livMatS/dtool-lookup-gui),
+Following videos show how to work with the [dtool-lookup-gui](https://github.com/jic-dtool/dtool-lookup-gui),
 an experimental graphical user interface for the _dtool_ & _dserver_ research data management ecosystem.
 For thorough documentation, refer to [dtool-lookup-gui.readthedocs.io](https://dtool-lookup-gui.readthedocs.io/).
 
@@ -98,7 +98,7 @@ For thorough documentation, refer to [dtool-lookup-gui.readthedocs.io](https://d
 To populate a local _dserver_ instance with some sample datasets, download the dtool sample family [sample-datasets.zip](../assets/files/sample-datasets.zip), extract them and run
 
 ```bash
-docker run -v $(pwd)/sample-datasets:/tmp/data:ro -p 8888:8888 ghcr.io/livmats/dserver-minimal:latest
+docker run -v $(pwd)/sample-datasets:/tmp/data:ro -p 8888:8888 ghcr.io/jic-dtool/dserver-minimal:latest
 ```
 
 from within the folder of extraction. This mounts the freshly extracted local folder `sample-datasets` into the docker container as a dataset repository.
