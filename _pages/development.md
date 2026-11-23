@@ -38,7 +38,7 @@ workflow, below you will find links to the documentation of the right interface 
             <span><a href="https://dtoolcore.readthedocs.io/en/latest/">dtoolcore (Python API)</a></span>
           {% elsif block == 'storage-item-disk' %}
             <img src="{{ '/assets/icons/python.png'| relative_url}}" alt="Python icon">
-            <span><a href="https://github.com/jic-dtool/dtoolcore/blob/master/dtoolcore/storagebroker.py#L403-L784">disk storage broker</a></span>
+            <span><a href="https://github.com/jic-dtool/dtoolcore/blob/main/dtoolcore/storagebroker.py#L403-L784">disk storage broker</a></span>
           {% elsif block == 'storage-item-smb' %}
             <span><a href="https://github.com/jic-dtool/dtool-smb">dtool-smb</a></span>
           {% elsif block == 'storage-item-s3' %}
