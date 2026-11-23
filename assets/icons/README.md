@@ -7,7 +7,7 @@ Yet incomplte icon sources:
   License: CC BY 4.0
 - OpenAPI icon: https://worldvectorlogo.com/logo/openapi-1
   License: Apache License Version 2.0, January 2004
-- dtool: https://github.com/livMatS/dtool-lookup-gui/blob/master/data/icons/dtool_logo.svg
+- dtool: https://github.com/jic-dtool/dtool-lookup-gui/blob/main/data/icons/dtool_logo.svg
   License: CC-BY-SA
 - VueJS icon: https://github.com/vuejs/art/blob/9f8ee218d32b52c2d150212f22798a7a61689361/logo.svg,
   License: CC BY 4.0

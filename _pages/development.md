@@ -38,9 +38,9 @@ workflow, below you will find links to the documentation of the right interface 
             <span><a href="https://dtoolcore.readthedocs.io/en/latest/">dtoolcore (Python API)</a></span>
           {% elsif block == 'storage-item-disk' %}
             <img src="{{ '/assets/icons/python.png'| relative_url}}" alt="Python icon">
-            <span><a href="https://github.com/jic-dtool/dtoolcore/blob/master/dtoolcore/storagebroker.py#L403-L784">disk storage broker</a></span>
+            <span><a href="https://github.com/jic-dtool/dtoolcore/blob/main/dtoolcore/storagebroker.py#L403-L784">disk storage broker</a></span>
           {% elsif block == 'storage-item-smb' %}
-            <span><a href="https://github.com/livMatS/dtool-smb">dtool-smb</a></span>
+            <span><a href="https://github.com/jic-dtool/dtool-smb">dtool-smb</a></span>
           {% elsif block == 'storage-item-s3' %}
             <span> <a href="https://github.com/jic-dtool/dtool-s3"> dtool-s3</a></span>
           {% elsif block == 'storage-item-other' %}
@@ -69,9 +69,9 @@ workflow, below you will find links to the documentation of the right interface 
             <img src="{{ '/assets/icons/flask.png'| relative_url}}" alt="Flask icon">
             <span><a href="https://dservercore.readthedocs.io">dservercore</a></span>
           {% elsif block == 'search-plugin' %}
-            <span><a href="https://github.com/livMatS/dserver-search-plugin-mongo">dserver-search-plugin-mongo</a></span>
+            <span><a href="https://github.com/jic-dtool/dserver-search-plugin-mongo">dserver-search-plugin-mongo</a></span>
           {% elsif block == 'retrieve-plugin' %}
-            <span><a href="https://github.com/livMatS/dserver-retrieve-plugin-mongo">dserver-retrieve-plugin-mongo</a></span>
+            <span><a href="https://github.com/jic-dtool/dserver-retrieve-plugin-mongo">dserver-retrieve-plugin-mongo</a></span>
           {% elsif block == 'other-plugins' %}
             <span><a href="https://dserver.readthedocs.io/en/latest/story.html#user-stories-that-lead-to-dserver-centered-additions-for-the-dtool-ecosystem">other server-side plugins...</a></span>
           {% elsif block == 'database' %}
