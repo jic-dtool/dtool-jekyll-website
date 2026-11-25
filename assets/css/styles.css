@@ -318,3 +318,35 @@ div.dserver-block {
 .dserver-block.other-database {
   grid-area: 7/4/7/6;
 }
+
+/* Block styles (moved here from assets/css/main.scss for al-folio v1) */
+.dserver-block,
+.dtool-block,
+.dtool-h,
+.dserver-h {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.dserver-block span,
+.dtool-block span,
+.dtool-h span,
+.dserver-h span {
+  min-width: 100px;
+  max-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.dserver-block div,
+.dtool-block div,
+.dtool-h div,
+.dserver-h div {
+  font-size: 12px;
+}
